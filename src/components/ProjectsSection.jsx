@@ -3,34 +3,34 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Expenses Tracker",
+    title: "Finances Tracker",
     description:
-      "A prototype full-stack application to securely manage and record your personal finances. Next.js and Tailwind CSS power a clean, responsive UI, while a Django REST Framework backend (with JWT auth) handles transactions, categories and date-tracked records.",
-    image: "/projects/expenses_tracker_picture.png",
-    tags: ["Next.js", "Tailwind CSS", "Django", "MongoDB"],
-    demoUrl: "https://expensetrackerfrontend-olive.vercel.app/",
+      "A personal finance management and tracking application. The front end is built with **Next.js** and **Tailwind CSS**, while a **Django REST Framework** backend securely handles transactions, categories, and date-tracked records. It allows users to monitor their income and expenses.",
+    image: "/projects/finances_tracker.png",
+    tags: ["Next.js", "Tailwind CSS", "Django", "JWT", "PostgreSQL"],
+    demoUrl: "https://financialapp-chi.vercel.app/",
     githubUrl: "https://github.com/AresNeutron/Expenses-Tracker",
   },
   {
     id: 2,
     title: "Kingslayer",
     description:
-      "A full-stack chess platform featuring a custom Python engine exposed via FastAPI and consumed by a React & Tailwind front end. Play against the AI, analyze positions, and explore engine-driven move recommendations.",
-    image: "/projects/chess_engine_picture.png",
-    tags: ["React", "Tailwind CSS", "Python", "FastAPI"],
+      "A complete **chess platform** with a custom chess engine built from scratch in **C++**. This engine is exposed via a **FastAPI** backend, which powers a front end built using **React** and **Tailwind**. Users can play against the AI and analyze positions.",
+    image: "/projects/kingslayer.png",
+    tags: ["React", "Tailwind CSS", "FastAPI", "WebSockets", "C++"],
     demoUrl:
-      "https://kingslayer-frontend-git-main-fabio-quevedos-projects.vercel.app/",
+      "https://kingslayer-bay.vercel.app/",
     githubUrl: "https://github.com/AresNeutron/Kingslayer",
   },
   {
     id: 3,
-    title: "Search Engine",
+    title: "Synchro-nice",
     description:
-      "A Python & NumPy implementation of a TF-IDF search algorithm. It preprocesses text documents, computes term frequencies and inverse document frequencies, and builds vector representations for efficient keyword searches.",
-    image: "/projects/search_engine_picture.png",
-    tags: ["Python", "NumPy", "TF-IDF"],
-    demoUrl: "https://searchenginefront-fabio-quevedos-projects.vercel.app/",
-    githubUrl: "https://github.com/AresNeutron/Search-Engine",
+        "A tool for **synchronizing music and animations**. The front end is built with **React** and **Tailwind**, and it uses a **FastAPI** backend with libraries like **librosa** and **numpy** for audio analysis. **Note: The MVP is still under active development.**",
+    image: "/projects/synchro_nice.png",
+    tags: ["React", "Tailwind CSS", "FastAPI", "WebSockets", "librosa", "numpy"],
+    demoUrl: "https://synchro-nice.vercel.app/",
+    githubUrl: "https://github.com/AresNeutron/Synchro-nice",
   },
 ];
 
