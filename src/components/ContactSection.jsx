@@ -1,6 +1,6 @@
 import {
   Linkedin,
-  Mail,
+  Mail  ,
   MapPin,
   Phone,
   Send,
@@ -92,10 +92,9 @@ export const ContactSection = () => {
             <div className="pt-8 p-6 bg-card rounded-lg">
               <h4 className="font-medium mb-4 text-center">More Profiles</h4>
               <div className="flex space-x-4 justify-center text-primary">
-                <a href="#" target="_blank" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/fabio-dar%C3%ADo-quevedo-sede%C3%B1o-b817a6312/" target="_blank" aria-label="LinkedIn">
                   <Linkedin size={24} />
                 </a>
-                {/* Buscojobs Uruguay link placeholder */}
               </div>
             </div>
           </div>
