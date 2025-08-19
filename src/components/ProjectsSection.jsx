@@ -37,7 +37,7 @@ export const ProjectsSection = () => {
           logic in mind. I’m constantly building more projects which will become real apps in a near future.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}
