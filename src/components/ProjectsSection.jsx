@@ -21,17 +21,7 @@ const projects = [
     demoUrl:
       "https://kingslayer-bay.vercel.app/",
     githubUrl: "https://github.com/AresNeutron/Kingslayer",
-  },
-  {
-    id: 3,
-    title: "Synchro-nice",
-    description:
-        "A tool for **synchronizing music and animations**. The front end is built with **React** and **Tailwind**, and it uses a **FastAPI** backend with libraries like **librosa** and **numpy** for audio analysis. **Note: The MVP is still under active development.**",
-    image: "/projects/synchro_nice.png",
-    tags: ["React", "Tailwind CSS", "FastAPI", "WebSockets", "librosa", "numpy"],
-    demoUrl: "https://synchro-nice.vercel.app/",
-    githubUrl: "https://github.com/AresNeutron/Synchro-nice",
-  },
+  }
 ];
 
 export const ProjectsSection = () => {
@@ -44,8 +34,7 @@ export const ProjectsSection = () => {
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           These are some of my key projects—built with scalability and solid backend
-          logic in mind. I’m continually iterating on each one to improve performance,
-          extend features, and ensure they can grow with real-world demands.
+          logic in mind. I’m constantly building more projects which will become real apps in a near future.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
